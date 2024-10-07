@@ -6,7 +6,7 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 const form = document.getElementById('search-form');
 const gallery = document.getElementById('gallery');
 const loader = document.getElementById('loader');
-const API_KEY = '45947467-1fb23e21d26a094164d331d1f'; // Wklej swój klucz API
+const API_KEY = '45947467-1fb23e21d26a094164d331d1f';
 form.addEventListener('submit', async e => {
   e.preventDefault();
   const query = document.getElementById('query').value.trim();
