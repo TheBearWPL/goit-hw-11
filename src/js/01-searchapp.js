@@ -77,4 +77,3 @@ function refreshLightbox() {
     captionDelay: 250,
   });
   lightbox.refresh();
-a
